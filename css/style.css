@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: #cfcfcf;
+    text-align: center;
+}
+
+#btn.inn{
+ display: none;
+}
+
+#btn{
+    margin-top: 30px;
+    width: 200px;
+    height: 90px;
+    font-size: 60px;
+    border: solid;
+    border-color: #ededf5;
+    text-align: center;
+    margin: auto;
+    user-select: none;
+    cursor: pointer;
+   }
+
+:hover.btn{
+    opacity: 0.8;
+}
+
+#kadl{
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+/* 文字を消す */
+#kadl.inbv{
+ display: none;
+ 
+}
+/* 文字が消/えていくアニメーション */
+
